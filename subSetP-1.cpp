@@ -46,7 +46,7 @@ bool subsetSum(vector<int>A, int k)
 int main()
 {
     vector<int> A = { 7, 3, 2, 5, 8 };
-    int k = 6;
+    int k = 10;
  
     if (subsetSum(A, k)) {
         cout << "Subsequence with the given sum exists";
